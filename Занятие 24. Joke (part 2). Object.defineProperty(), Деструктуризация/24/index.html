@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style>
+		input.error{
+			border-color: red;
+		}
+	</style>
+</head>
+<body>
+
+	<form id="userAuth">
+		<label>
+			Name: <input type="text" data-name="name" required>
+		</label>
+		<label>
+			Email: <input type="email" data-name="email" required>
+		</label>
+
+		<label>
+			Color:
+			<select id="userColor">
+				<option value="red">red</option>
+				<option value="blue">blue</option>
+				<option value="orange">orange</option>
+			</select>
+		</label>
+
+		<input type="hidden" id="userData" data-color="false">
+
+		<button>Send</button>
+	</form>
+	
+	<script src="script.js"></script>
+</body>
+</html>

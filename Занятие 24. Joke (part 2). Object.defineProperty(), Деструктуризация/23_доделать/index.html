@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style>
+		form{
+			display: flex;
+		    flex-direction: column;
+		    width: 300px;
+		    border: 1px solid black;
+		    padding: 10px;
+		    align-items: flex-start;
+		}
+		.categories{
+			display: flex;
+			align-items: center;
+			flex-wrap: wrap;
+		}
+		.categories.hide{
+			display: none;
+		}
+
+		.categories label{
+			background: lightgray;
+			padding: 3px;
+			border-radius: 2px;
+			margin: 2px;
+			text-align: center;
+			cursor: pointer;
+		}
+		.categories label.active{
+			background-color: purple;
+		}
+		.categories label input{
+			width: 0;
+			height: 0;
+		}
+
+		.joke__block{
+			border: 1px solid black;
+			padding: 10px;
+			box-sizing: border-box;
+			margin-bottom: 10px;
+		}
+		.jokes__wrapper{
+			width: 50%;
+		}
+		.jokes__fav{
+			background: #dfccff;
+			margin: 0 0 0 20px;
+			width: 50%;
+		}
+		.jokes__container{
+			display: flex;
+			align-items: flex-start;
+			margin-top: 10px;
+		}
+	</style>	
+</head>
+<body>
+
+	<form id="getJoke">
+		<label>
+			Random <input type="radio" value="random" name="joke">
+		</label>
+		<label>
+			Categories <input type="radio" value="categories" name="joke">
+			<div class="categories"></div>
+		</label>
+		<label>
+			Search <input type="radio" value="search" name="joke">
+			<input type="text" id="searchJoke">
+		</label>
+
+		<button>Get Joke</button>
+	</form>
+
+	<div class="jokes__container">
+		<div id="jokes__wrapper" class="jokes__wrapper"></div>
+		<div id="jokes__fav" class="jokes__fav"></div>
+	</div>
+	
+	<script src="script.js"></script>
+</body>
+</html>
