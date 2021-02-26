@@ -1,0 +1,21 @@
+{
+	"name": "Ivan",
+	"age": 50,
+	"children": [
+		{
+			"name": "Alena",
+			"age": 20,
+			"sex": "girls"
+		},
+		{
+			"name": "Irina",
+			"age": 15,
+			"sex": "girls"
+		},
+		{
+			"name": "Alexandr",
+			"age": 10,
+			"sex": "boy"
+		}
+	]
+}
