@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Form</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+	<button id="openForm" class="btn">Open Form</button>
+
+	<div class="popup" id="popup">
+
+		<div class="popup__wrapper" id="popup__wrapper">
+			<div class="info"></div>
+			<button class="popup__close" id="popup__close">Close popup</button>
+			<form id="addEventForm">
+				<label>
+					Event Name:
+					<input id="eventName">
+				</label>
+
+				<label>
+					Users:
+					<select id="usersSelect" multiple></select>
+				</label>
+				
+				<label>
+					Day:
+					<select id="daysSelect"></select>
+				</label>
+				
+				<label>
+					Hour: <select id="hoursSelect"></select>
+				</label>
+
+				<button>Add Event</button>
+			</form>
+		</div>
+	</div>
+
+	<script src="js/addEvent.js"></script>
+</body>
+</html>

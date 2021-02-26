@@ -1,0 +1,80 @@
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 13px; }
+
+select, input, button {
+  font-family: "Poppins", sans-serif; }
+  select:focus, input:focus, button:focus {
+    outline: 0; }
+
+.maket__info {
+  display: flex;
+  margin-bottom: 10px;
+  align-items: center;
+  justify-content: flex-end; }
+  .maket__info .btn {
+    margin-left: 10px;
+    text-decoration: none;
+    color: black;
+    border: 1px solid #9e9e9e;
+    border-radius: 2px;
+    padding: 3px 10px;
+    transition: 0.2s; }
+    .maket__info .btn:hover {
+      background: #4caf50;
+      color: white; }
+
+table {
+  width: 100%;
+  border-collapse: collapse; }
+  table td, table th {
+    border: 1px solid #9e9e9e;
+    padding: 0;
+    text-align: center; }
+  table th {
+    text-transform: capitalize;
+    padding: 5px;
+    width: 3%; }
+  table .event {
+    background: #4caf50;
+    padding: 5px; }
+    table .event__info {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-weight: 500; }
+    table .event__users {
+      margin: 0;
+      text-align: left;
+      font-size: 12px;
+      color: white; }
+    table .event img {
+      width: 10px; }
+
+form {
+  display: flex;
+  flex-direction: column;
+  background: lightgray;
+  padding: 10px;
+  width: 300px; }
+
+.popup {
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+  .popup.shown {
+    display: flex; }
+  .popup .popup__close {
+    margin-bottom: 10px; }
+  .popup__wrapper {
+    background: lightblue;
+    padding: 10px; }
+
+/*# sourceMappingURL=style.css.map */
