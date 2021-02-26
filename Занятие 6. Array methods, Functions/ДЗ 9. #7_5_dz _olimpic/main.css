@@ -1,0 +1,26 @@
+table{
+    border-collapse: collapse;
+    margin: auto;
+    width: 900px;
+}
+td{
+    border: 2px solid #7db5ce;
+    width: 400px;
+    text-align: center;
+    padding: 20px 0;
+    
+}
+td p {
+    padding: 20px 0;
+}
+.gold {
+    background-color: #ecdd50fc;
+}
+.silver {
+    background-color: #c3c3be;
+}
+.bronze {
+    background-color: #e8820d;
+}
+
+

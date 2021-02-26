@@ -1,0 +1,42 @@
+html, body {
+  font-family: "Nerko One", cursive; }
+  html svg, html img, body svg, body img {
+    height: 35px; }
+
+.board {
+  /* что бы не было пробелов */
+  border-collapse: collapse; } 
+  /* odd нечетные */
+  .board tr:nth-child(odd) td:nth-child(even) {
+    background: #353c4d; }
+  .board tr:nth-child(even) td:nth-child(odd) {
+    background: #353c4d; }
+  .board tr:first-of-type td, .board tr:last-of-type td {
+    height: 25px;
+    background: transparent !important;
+    border: none; }
+  .board td {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #353c4d;
+    text-align: center; }
+    .board td:first-of-type, .board td:last-of-type {
+      background: transparent !important;
+      width: 25px;
+      border: none; }
+
+.userTables {
+  border-collapse: collapse; }
+  .userTables td {
+    border: 1px solid #353c4d;
+    padding: 10px; }
+
+.product {
+  display: flex;
+  align-items: center; }
+  .product span {
+    margin-right: 10px; }
+    .product span:last-of-type {
+      margin-right: 0; }
+
+/*# sourceMappingURL=style.css.map */

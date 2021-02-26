@@ -1,0 +1,53 @@
+
+body {
+  
+   font-family: "Nerko One", cursive;
+   color:#353c4d;
+   border-radius: 3px;
+  
+ }
+  .board {
+     width: 942px;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-around;
+     background-color: #55aa55;
+     border-radius: 7px;
+     margin: auto;
+  }
+  .cart{
+   position: relative;
+     border-radius: 5px;
+     font-size: 18px;
+     margin: 5px;
+     height: 135px;
+     width: 95px;
+     background-color: #fff;
+     border-radius: 7px;
+     font-size: 18px;
+     padding: 5px
+  }
+  .cart span {
+   /* margin: 0 7px; */
+ 
+  }
+
+  .small {
+   width: 14px;
+   height: 14px;
+ }
+ 
+.duble{
+   position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.figure {
+   position: absolute;
+   bottom: 35%;
+   right: 30%;
+   height: 50px;
+   margin: auto;
+}
+
+   /*# sourceMappingURL=style.css.map */
