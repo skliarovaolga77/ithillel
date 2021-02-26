@@ -1,0 +1,58 @@
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100vh;
+  width: 100%;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.square {
+  display: block;
+  width: 200px;
+  height: 200px;
+  border: 2px solid #000;
+}
+
+.rectangle {
+  display: block;
+  width: 400px;
+  height: 200px;
+  border: 2px solid #000;
+}
+
+.circle {
+  display: block;
+  width: 200px;
+  height: 200px;
+  border: 2px solid #000;
+  border-radius: 100%;
+}
+.green {
+  background-color: green;
+}
+.red {
+  background-color: red;
+}
+.blue {
+  background-color: blue;
+}
+
+body .radio-block {
+  margin: 20px 0;
+}
+
+body .radio-block label {
+  display: block;
+}
+label{
+  display: block;
+}
